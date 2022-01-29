@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="prism.css">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <title>Postverse</title>
+    </head>
+  <body>
+      <div class="container">
+        <h1 id="main-Heading">PostVerse</h1>
+        <label for="request" id="req">Untitled Request</label>
+        
+        <div class="header">
+
+          <select name="request-typw" id="reqType">
+            <option value="none" selected disabled hidden>Select</option>
+            <option value="GET">GET</option>
+            <option value="POST">POST</option>
+          </select>
+          <input type="text" placeholder="Enter Request URL" id="url" class="inputText" />
+          <button id="send" class="btn">Send</button>
+        </div>
+        
+        <textarea
+          name="json"
+          id="JSON"
+          cols="60"
+          rows="10"
+          placeholder="Enter JSON here"
+        ></textarea>
+        <br />
+        <br />
+        <!-- <label for="response">Your Response</label>
+            <br> -->
+        <!-- <textarea name="response" id="response" cols="60" rows="10" placeholder="Response" disabled></textarea> -->
+        <pre style="height: 50vh; width: 70vw;" class="language-JSON">
+            <code class="language-JSON" id="responsePrism" > 
+                Your response shown here.
+            </code>
+        </pre>
+      </div>
+    <script src="script.js"></script>
+    <script src="prism.js"></script>
+  </body>
+</html>

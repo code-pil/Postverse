@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Baloo+Bhai+2:wght@600&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #F4F9F9;
+}
+
+
+.container{
+    /* border: 1px solid red; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #CCF2F4;
+}
+
+#main-Heading{
+    font-size: 3em;
+    margin-bottom: 30px; 
+    font-weight: bolder;
+    color: #444242;
+}
+
+#req{
+    font-size: 1.2em;
+    color: #4d4a4a;
+    margin-bottom: 20px;
+}
+
+#reqType{
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 11px;
+    background-color: #cec9c9;
+}
+
+#reqType:hover{
+    background-color: #c0bebe;
+    cursor: pointer;
+}
+
+#url{
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+    width: 30vw;
+    background-color: #cec9c9;
+    font-size: 1.01em;
+}   
+
+#url:hover{
+    background-color: #c0bebe;
+    
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 1.01em;
+    border: none;
+    border-radius: 5px;
+    background: #76eaf7;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #5edfee;
+    
+}
+
+#JSON{
+    height: 10vh;
+    width: 40.5vw;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #cec9c9;
+    border-radius: 5px;
+}
+
+#JSON:hover{
+    background-color: #c0bebe;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
